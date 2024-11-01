@@ -1,0 +1,9 @@
+@import "../core/style-includes";
+
+.wp-block-vinoshipper-injector-product-item {
+
+	.vs-injector-block-product-item {
+
+		@include vs-injector-base-block();
+	}
+}

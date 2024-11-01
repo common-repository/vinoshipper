@@ -1,0 +1,25 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "vinoshipper-injector/available-in",
+	"version": "1.1.0",
+	"title": "Available In",
+	"category": "vinoshipper",
+	"icon": "admin-site-alt3",
+	"description": "Display the delivery methods and states your products can be sold to.",
+	"keywords": [ "vs" ],
+	"example": {},
+	"supports": {
+		"html": false
+	},
+	"textdomain": "vinoshipper",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"render": "file:./render.php",
+	"attributes": {
+		"tooltip": {
+			"type": "boolean",
+			"default": true
+		}
+	}
+}

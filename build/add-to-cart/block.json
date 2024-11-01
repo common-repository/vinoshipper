@@ -1,0 +1,43 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "vinoshipper-injector/add-to-cart",
+  "version": "1.1.0",
+  "title": "Product Add To Cart",
+  "category": "vinoshipper",
+  "icon": "cart",
+  "description": "Display one product's Add To Cart button and optional quantity.",
+  "keywords": [
+    "vs",
+    "cart button"
+  ],
+  "example": {},
+  "supports": {
+    "html": false,
+    "align": true
+  },
+  "textdomain": "vinoshipper",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "viewScript": "file:./view.js",
+  "viewStyle": "file:./view.css",
+  "render": "file:./render.php",
+  "attributes": {
+    "productId": {
+      "type": "number",
+      "default": null
+    },
+    "accountId": {
+      "type": "number",
+      "default": null
+    },
+    "includeQty": {
+      "type": "boolean",
+      "default": true
+    },
+    "productUnits": {
+      "type": "string",
+      "default": null
+    }
+  }
+}

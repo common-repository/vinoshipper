@@ -1,0 +1,54 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "vinoshipper-injector/product-catalog",
+  "version": "1.1.0",
+  "title": "Product Catalog",
+  "category": "vinoshipper",
+  "icon": "list-view",
+  "description": "Display a list of products.",
+  "keywords": [
+    "vs",
+    "products",
+    "list",
+    "cards"
+  ],
+  "example": {},
+  "supports": {
+    "html": false
+  },
+  "textdomain": "vinoshipper",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "render": "file:./render.php",
+  "attributes": {
+    "cards": {
+      "type": "string",
+      "default": "list",
+      "enum": [
+        "cards",
+        "list"
+      ]
+    },
+    "list": {
+      "type": "number",
+      "default": null
+    },
+    "available": {
+      "type": "boolean",
+      "default": true
+    },
+    "announcement": {
+      "type": "boolean",
+      "default": true
+    },
+    "tooltip": {
+      "type": "boolean",
+      "default": null
+    },
+    "descForce": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

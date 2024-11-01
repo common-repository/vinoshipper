@@ -1,0 +1,37 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "vinoshipper-injector/club-registration",
+	"version": "1.1.0",
+	"title": "Club Registration",
+	"category": "vinoshipper",
+	"icon": "welcome-write-blog",
+	"description": "Display Club Registration form.",
+	"keywords": [ "vs", "clubs", "club form" ],
+	"example": {},
+	"supports": {
+		"html": false
+	},
+	"textdomain": "vinoshipper",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"render": "file:./render.php",
+	"attributes": {
+		"clubsDisplayAll": {
+			"type": "boolean",
+			"default": true
+		},
+		"allow": {
+			"type": "array",
+			"default": []
+		},
+		"defaultClub": {
+			"type": "number",
+			"default": null
+		},
+		"headline": {
+			"type": "string",
+			"default": null
+		}
+	}
+}

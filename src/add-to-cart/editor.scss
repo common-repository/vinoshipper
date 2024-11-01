@@ -1,0 +1,27 @@
+@import "../core/style-includes";
+
+.wp-block-vinoshipper-injector-add-to-cart {
+
+	.vs-injector-block-add-to-cart {
+
+		@include vs-injector-base-block();
+		font-size: 1rem;
+	}
+
+	h1 {
+		font-size: 1.5rem;
+	}
+
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		font-size: 1rem;
+	}
+
+	.vs-icon {
+		height: 1rem;
+	}
+
+}

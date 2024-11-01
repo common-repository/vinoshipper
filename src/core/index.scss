@@ -1,0 +1,65 @@
+/**
+* The following styles get applied inside the editor only.
+*
+* Replace them with your own styles or remove the file completely.
+*/
+
+.vs-injector-block-editor-content {
+
+	.vs-injector-block-title {
+		font-weight: 700;
+	}
+
+	p {
+		margin-bottom: 0;
+	}
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+
+	.vs-injector-block-error {
+		background-color: #6c0000;
+		color: #fff;
+		padding: 1rem;
+		border: 0.3rem solid #be0000;
+		border-radius: 0.3rem;
+
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6 {
+			margin-top: 0;
+			margin-bottom: 0;
+			color: #fff;
+		}
+	}
+
+	.vs-injector-block-header {
+		display: flex;
+		align-items: center;
+		gap: 0.5rem;
+		margin-bottom: 0.5rem;
+
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6 {
+			line-height: 1;
+		}
+	}
+
+	.vs-icon {
+		height: 2rem;
+	}
+}

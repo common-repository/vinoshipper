@@ -1,0 +1,10 @@
+@import "../core/style-includes";
+
+.wp-block-vinoshipper-injector-available-in {
+
+	.vs-injector-block-available-in {
+
+		@include vs-injector-base-block();
+	}
+
+}

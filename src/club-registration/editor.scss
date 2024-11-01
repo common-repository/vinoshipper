@@ -1,0 +1,9 @@
+@import "../core/style-includes";
+
+.wp-block-vinoshipper-injector-club-registration {
+
+	.vs-injector-block-club-registration {
+
+		@include vs-injector-base-block();
+	}
+}
